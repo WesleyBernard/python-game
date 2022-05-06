@@ -1,0 +1,2 @@
+This is me learning how to make a basic game using python and pygame following on with the "Creating a Zelda style game in Python [with some Dark Souls elements]"
+video from the "Clear Code" YouTube channel.
