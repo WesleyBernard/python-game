@@ -6,6 +6,7 @@ class Game:
           
         # general setup
         pygame.init()
+        pygame.display.set_caption('Discount Zelda')
         self.screen = pygame.display.set_mode((WIDTH,HEIGHT))
         self.clock = pygame.time.Clock()
     
@@ -16,7 +17,7 @@ class Game:
                     pygame.quit()
                     sys.exit()
  
-            self.screen.fill('blue')
+            self.screen.fill('black')
             pygame.display.update()
             self.clock.tick(FPS)
  
