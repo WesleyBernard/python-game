@@ -11,7 +11,8 @@ class Level:
         # sprite setup
         self.create_map()
     def create_map(self):
-        for row in WORLD_MAP:
+        for row_index,row in enumerate(WORLD_MAP):
+            print(row_index)
             print(row)
     def run(self):
         # update and draw the game
